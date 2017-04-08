@@ -1,263 +1,276 @@
-[ approach_1.bag ] - 靠近障碍物1
-  /rosout
-  /cloud_nodelet/parameter_descriptions
-  /gps/rtkfix
-  /image_raw
-  /tf
-  /cloud_nodelet/parameter_updates
-  /radar/tracks
-  /radar/points
-  /radar/range
-  /obs1/gps/time
-  /gps/time
-  /gps/fix
-  /diagnostics_toplevel_state
-  /diagnostics_agg
-  /velodyne_packets
-  /velodyne_points
-  /obs1/gps/rtkfix
-  /diagnostics
-  /velodyne_nodelet_manager/bond
-  /obs1/gps/fix
+[ approach_2.bag ]
+  /cloud_nodelet/parameter_descriptions => 1
+  /cloud_nodelet/parameter_updates => 1
+  /diagnostics => 84
+  /diagnostics_agg => 24
+  /diagnostics_toplevel_state => 24
+  /gps/fix => 89
+  /gps/rtkfix => 121
+  /gps/time => 114
+  /image_raw => 361
+  /obs1/gps/fix => 20
+  /obs1/gps/rtkfix => 121
+  /obs1/gps/time => 87
+  /radar/points => 241
+  /radar/range => 241
+  /radar/tracks => 241
+  /rosout => 15
+  /tf => 1193
+  /velodyne_nodelet_manager/bond => 48
+  /velodyne_packets => 120
+  /velodyne_points => 120
+Total: 3266
 
-[ approach_2.bag ] - 靠近障碍物2
-  /rosout
-  /cloud_nodelet/parameter_descriptions
-  /image_raw
-  /cloud_nodelet/parameter_updates
-  /gps/time
-  /tf
-  /radar/tracks
-  /radar/points
-  /radar/range
-  /gps/fix
-  /obs1/gps/time
-  /gps/rtkfix
-  /obs1/gps/rtkfix
-  /velodyne_packets
-  /velodyne_points
-  /obs1/gps/fix
-  /diagnostics
-  /diagnostics_toplevel_state
-  /diagnostics_agg
-  /velodyne_nodelet_manager/bond
+[ approach_3.bag ]
+  /cloud_nodelet/parameter_descriptions => 1
+  /cloud_nodelet/parameter_updates => 1
+  /diagnostics => 98
+  /diagnostics_agg => 27
+  /diagnostics_toplevel_state => 27
+  /gps/fix => 100
+  /gps/rtkfix => 136
+  /gps/time => 134
+  /image_raw => 410
+  /obs1/gps/fix => 25
+  /obs1/gps/rtkfix => 134
+  /obs1/gps/time => 94
+  /radar/points => 274
+  /radar/range => 274
+  /radar/tracks => 274
+  /rosout => 15
+  /tf => 1357
+  /velodyne_nodelet_manager/bond => 56
+  /velodyne_packets => 137
+  /velodyne_points => 137
+Total: 3711
 
-[ approach_3.bag ] - 靠近障碍物3
-  /rosout
-  /cloud_nodelet/parameter_descriptions
-  /cloud_nodelet/parameter_updates
-  /radar/points
-  /radar/tracks
-  /radar/range
-  /image_raw
-  /tf
-  /velodyne_packets
-  /velodyne_points
-  /gps/time
-  /gps/fix
-  /gps/rtkfix
-  /obs1/gps/rtkfix
-  /diagnostics
-  /diagnostics_toplevel_state
-  /diagnostics_agg
-  /obs1/gps/fix
-  /velodyne_nodelet_manager/bond
-  /obs1/gps/time
+[ corner_pass.bag ]
+  /cloud_nodelet/parameter_descriptions => 1
+  /cloud_nodelet/parameter_updates => 1
+  /diagnostics => 153
+  /diagnostics_agg => 44
+  /diagnostics_toplevel_state => 44
+  /gps/fix => 164
+  /gps/rtkfix => 218
+  /gps/time => 206
+  /image_raw => 653
+  /obs1/gps/fix => 35
+  /obs1/gps/rtkfix => 217
+  /obs1/gps/time => 149
+  /radar/points => 436
+  /radar/range => 436
+  /radar/tracks => 436
+  /rosout => 15
+  /tf => 2161
+  /velodyne_nodelet_manager/bond => 84
+  /velodyne_packets => 218
+  /velodyne_points => 218
+Total: 5889
 
-[ corner_pass.bag ] - 穿过街角
-  /rosout
-  /gps/fix
-  /cloud_nodelet/parameter_descriptions
-  /velodyne_packets
-  /velodyne_points
-  /gps/rtkfix
-  /cloud_nodelet/parameter_updates
-  /image_raw
-  /tf
-  /radar/points
-  /radar/tracks
-  /radar/range
-  /diagnostics_toplevel_state
-  /diagnostics_agg
-  /gps/time
-  /obs1/gps/time
-  /obs1/gps/fix
-  /obs1/gps/rtkfix
-  /diagnostics
-  /velodyne_nodelet_manager/bond
+[ sitting.bag ]
+  /cloud_nodelet/parameter_descriptions => 1
+  /cloud_nodelet/parameter_updates => 1
+  /diagnostics => 820
+  /diagnostics_agg => 235
+  /diagnostics_toplevel_state => 235
+  /gps/fix => 925
+  /gps/rtkfix => 1175
+  /gps/time => 1128
+  /image_raw => 3524
+  /obs1/gps/fix => 209
+  /obs1/gps/rtkfix => 1175
+  /obs1/gps/time => 818
+  /radar/points => 2350
+  /radar/range => 2350
+  /radar/tracks => 2350
+  /rosout => 15
+  /tf => 11662
+  /velodyne_nodelet_manager/bond => 470
+  /velodyne_packets => 1174
+  /velodyne_points => 1174
+Total: 31791
 
-[ sitting.bag ] - 静止不动？
-  /rosout
-  /cloud_nodelet/parameter_descriptions
-  /radar/points
-  /radar/tracks
-  /radar/range
-  /velodyne_packets
-  /velodyne_points
-  /velodyne_nodelet_manager/bond
-  /image_raw
-  /gps/time
-  /obs1/gps/time
-  /cloud_nodelet/parameter_updates
-  /tf
-  /gps/rtkfix
-  /obs1/gps/rtkfix
-  /diagnostics_toplevel_state
-  /diagnostics_agg
-  /gps/fix
-  /obs1/gps/fix
-  /diagnostics
+[ spin_shoreline.bag ]
+  /cloud_nodelet/parameter_descriptions => 1
+  /cloud_nodelet/parameter_updates => 1
+  /diagnostics => 1883
+  /diagnostics_agg => 539
+  /diagnostics_toplevel_state => 539
+  /gps/fix => 2193
+  /gps/rtkfix => 2694
+  /gps/time => 2588
+  /image_raw => 4041
+  /obs1/gps/fix => 449
+  /obs1/gps/rtkfix => 2588
+  /obs1/gps/time => 1877
+  /radar/points => 5388
+  /radar/range => 5388
+  /radar/tracks => 5389
+  /rosout => 17
+  /tf => 26751
+  /velodyne_nodelet_manager/bond => 1076
+  /velodyne_packets => 2692
+  /velodyne_points => 2692
+Total: 68786
 
-[ spin_shoreline.bag ] - 海岸线疾驰
-  /rosout
-  /cloud_nodelet/parameter_descriptions
-  /obs1/gps/time
-  /radar/tracks
-  /gps/fix
-  /cloud_nodelet/parameter_updates
-  /tf
-  /gps/rtkfix
-  /radar/points
-  /radar/range
-  /image_raw
-  /velodyne_packets
-  /velodyne_points
-  /gps/time
-  /diagnostics
-  /obs1/gps/rtkfix
-  /obs1/gps/fix
-  /diagnostics_toplevel_state
-  /diagnostics_agg
-  /velodyne_nodelet_manager/bond
+[ intersection_1.bag ]
+  /cloud_nodelet/parameter_descriptions => 1
+  /cloud_nodelet/parameter_updates => 1
+  /diagnostics => 116
+  /diagnostics_agg => 33
+  /diagnostics_toplevel_state => 33
+  /gps/fix => 130
+  /gps/rtkfix => 165
+  /gps/time => 162
+  /image_raw => 496
+  /obs1/gps/fix => 29
+  /obs1/gps/rtkfix => 164
+  /obs1/gps/time => 125
+  /radar/points => 330
+  /radar/range => 330
+  /radar/tracks => 330
+  /rosout => 15
+  /tf => 1639
+  /velodyne_nodelet_manager/bond => 68
+  /velodyne_packets => 165
+  /velodyne_points => 165
+Total: 4497
 
-[ intersection_1.bag ] - 十字路口
-  /rosout
-  /cloud_nodelet/parameter_descriptions
-  /image_raw
-  /velodyne_nodelet_manager/bond
-  /tf
-  /cloud_nodelet/parameter_updates
-  /gps/time
-  /gps/fix
-  /radar/points
-  /radar/tracks
-  /radar/range
-  /gps/rtkfix
-  /obs1/gps/time
-  /diagnostics
-  /velodyne_packets
-  /velodyne_points
-  /obs1/gps/rtkfix
-  /diagnostics_toplevel_state
-  /diagnostics_agg
-  /obs1/gps/fix
+[ spin.bag ]
+  /cloud_nodelet/parameter_descriptions => 1
+  /cloud_nodelet/parameter_updates => 1
+  /diagnostics => 1141
+  /diagnostics_agg => 328
+  /diagnostics_toplevel_state => 328
+  /gps/fix => 1275
+  /gps/rtkfix => 1639
+  /gps/time => 1559
+  /image_raw => 4917
+  /obs1/gps/fix => 292
+  /obs1/gps/rtkfix => 1634
+  /obs1/gps/time => 1144
+  /radar/points => 3277
+  /radar/range => 3277
+  /radar/tracks => 3278
+  /rosout => 15
+  /tf => 16267
+  /velodyne_nodelet_manager/bond => 656
+  /velodyne_packets => 1638
+  /velodyne_points => 1638
+Total: 44305
 
-[ spin.bag ] - 疾驰
-  /rosout
-  /cloud_nodelet/parameter_descriptions
-  /radar/tracks
-  /image_raw
-  /velodyne_packets
-  /gps/rtkfix
-  /velodyne_points
-  /tf
-  /cloud_nodelet/parameter_updates
-  /radar/points
-  /radar/range
-  /gps/time
-  /gps/fix
-  /obs1/gps/rtkfix
-  /obs1/gps/time
-  /diagnostics_toplevel_state
-  /diagnostics_agg
-  /velodyne_nodelet_manager/bond
-  /obs1/gps/fix
-  /diagnostics
+[ NOISY_spin_2.bag ]
+  /cloud_nodelet/parameter_descriptions => 1
+  /cloud_nodelet/parameter_updates => 1
+  /diagnostics => 2133
+  /diagnostics_agg => 610
+  /diagnostics_toplevel_state => 610
+  /gps/fix => 2038
+  /gps/rtkfix => 3050
+  /gps/time => 2756
+  /image_raw => 9151
+  /obs1/gps/fix => 900
+  /obs1/gps/rtkfix => 3050
+  /obs1/gps/time => 2339
+  /radar/points => 6100
+  /radar/range => 6100
+  /radar/tracks => 6100
+  /rosout => 15
+  /tf => 30280
+  /velodyne_nodelet_manager/bond => 1220
+  /velodyne_packets => 3048
+  /velodyne_points => 3047
+Total: 82549
 
-[ NOISY_spin_2.bag ] - 疾驰2
-  /rosout
-  /cloud_nodelet/parameter_descriptions
-  /velodyne_packets
-  /image_raw
-  /cloud_nodelet/parameter_updates
-  /tf
-  /radar/tracks
-  /radar/range
-  /radar/points
-  /velodyne_nodelet_manager/bond
-  /obs1/gps/time
-  /gps/time
-  /gps/fix
-  /obs1/gps/rtkfix
-  /gps/rtkfix
-  /velodyne_points
-  /diagnostics_toplevel_state
-  /diagnostics_agg
-  /obs1/gps/fix
-  /diagnostics
+[ spin_3.bag ]
+  /cloud_nodelet/parameter_descriptions => 1
+  /cloud_nodelet/parameter_updates => 1
+  /diagnostics => 889
+  /diagnostics_agg => 254
+  /diagnostics_toplevel_state => 254
+  /gps/fix => 967
+  /gps/rtkfix => 1271
+  /gps/time => 1221
+  /image_raw => 3812
+  /obs1/gps/fix => 329
+  /obs1/gps/rtkfix => 1271
+  /obs1/gps/time => 954
+  /radar/points => 2541
+  /radar/range => 2541
+  /radar/tracks => 2541
+  /rosout => 15
+  /tf => 12616
+  /velodyne_nodelet_manager/bond => 508
+  /velodyne_packets => 1270
+  /velodyne_points => 1269
+Total: 34525
 
-[ spin_3.bag ] - 疾驰3
-  /rosout
-  /cloud_nodelet/parameter_descriptions
-  /velodyne_packets
-  /cloud_nodelet/parameter_updates
-  /tf
-  /image_raw
-  /radar/tracks
-  /radar/points
-  /radar/range
-  /gps/time
-  /gps/fix
-  /obs1/gps/rtkfix
-  /gps/rtkfix
-  /velodyne_points
-  /obs1/gps/time
-  /diagnostics
-  /diagnostics_toplevel_state
-  /diagnostics_agg
-  /obs1/gps/fix
-  /velodyne_nodelet_manager/bond
+[ overtake.bag ]
+  /cloud_nodelet/parameter_descriptions => 1
+  /cloud_nodelet/parameter_updates => 1
+  /diagnostics => 255
+  /diagnostics_agg => 73
+  /diagnostics_toplevel_state => 73
+  /gps/fix => 264
+  /gps/rtkfix => 369
+  /gps/time => 335
+  /image_raw => 1105
+  /obs1/gps/fix => 60
+  /obs1/gps/rtkfix => 361
+  /obs1/gps/time => 248
+  /radar/points => 736
+  /radar/range => 736
+  /radar/tracks => 736
+  /rosout => 15
+  /tf => 3654
+  /velodyne_nodelet_manager/bond => 148
+  /velodyne_packets => 368
+  /velodyne_points => 368
+Total: 9906
 
-[ overtake.bag ] - 超车
-  /rosout
-  /cloud_nodelet/parameter_descriptions
-  /image_raw
-  /gps/rtkfix
-  /cloud_nodelet/parameter_updates
-  /tf
-  /radar/points
-  /radar/range
-  /radar/tracks
-  /velodyne_packets
-  /velodyne_points
-  /gps/time
-  /obs1/gps/time
-  /obs1/gps/rtkfix
-  /gps/fix
-  /diagnostics
-  /diagnostics_toplevel_state
-  /diagnostics_agg
-  /velodyne_nodelet_manager/bond
-  /obs1/gps/fix
+[ approach_1.bag ]
+  /cloud_nodelet/parameter_descriptions => 1
+  /cloud_nodelet/parameter_updates => 1
+  /diagnostics => 77
+  /diagnostics_agg => 23
+  /diagnostics_toplevel_state => 23
+  /gps/fix => 86
+  /gps/rtkfix => 112
+  /gps/time => 106
+  /image_raw => 333
+  /obs1/gps/fix => 11
+  /obs1/gps/rtkfix => 111
+  /obs1/gps/time => 85
+  /radar/points => 222
+  /radar/range => 222
+  /radar/tracks => 222
+  /rosout => 15
+  /tf => 1100
+  /velodyne_nodelet_manager/bond => 44
+  /velodyne_packets => 111
+  /velodyne_points => 110
+Total: 3015
 
-[ 5mph.bag ] - 5每小时英里
-  /rosout
-  /cloud_nodelet/parameter_descriptions
-  /image_raw
-  /cloud_nodelet/parameter_updates
-  /tf
-  /radar/points
-  /radar/tracks
-  /radar/range
-  /diagnostics_toplevel_state
-  /diagnostics_agg
-  /velodyne_packets
-  /velodyne_points
-  /gps/time
-  /obs1/gps/time
-  /obs1/gps/fix
-  /gps/rtkfix
-  /obs1/gps/rtkfix
-  /gps/fix
-  /diagnostics
-  /velodyne_nodelet_manager/bond
+[ 5mph.bag ]
+  /cloud_nodelet/parameter_descriptions => 1
+  /cloud_nodelet/parameter_updates => 1
+  /diagnostics => 1148
+  /diagnostics_agg => 329
+  /diagnostics_toplevel_state => 329
+  /gps/fix => 1300
+  /gps/rtkfix => 1641
+  /gps/time => 1574
+  /image_raw => 4925
+  /obs1/gps/fix => 274
+  /obs1/gps/rtkfix => 1641
+  /obs1/gps/time => 1135
+  /radar/points => 3283
+  /radar/range => 3283
+  /radar/tracks => 3283
+  /rosout => 15
+  /tf => 16298
+  /velodyne_nodelet_manager/bond => 656
+  /velodyne_packets => 1640
+  /velodyne_points => 1640
+Total: 44396
+
