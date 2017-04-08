@@ -9,5 +9,5 @@ for topic, msg, t in rbag.read_messages():
     if numbers < 1:
         break
     numbers -= 1
-    print('%s => %s' % (topic, msg.__str__()[:50]))
+    print('%s => %s' % (topic, msg.__str__()[:100]))
 rbag.close()
