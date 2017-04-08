@@ -4,6 +4,13 @@
 
 参考`http://wiki.ros.org/kinetic/Installation/Ubuntu`
 
+## 使用Docker创建Ubuntu的TF运行环境
+
+```
+$ nvidia-docker run --name=demo -dt -v /data:/data gcr.io/tensorflow/tensorflow:1.0.1-gpu
+$ docker exec -it demo bash
+```
+
 ## 添加ROS的apt仓库
 
 ```
