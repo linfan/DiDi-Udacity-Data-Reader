@@ -1,6 +1,7 @@
 # Generated files
 *.pyc
 *.log
+__pycache__
 
 # Idea project
 .idea
