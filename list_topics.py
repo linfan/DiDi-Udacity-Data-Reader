@@ -2,6 +2,7 @@
 
 import rosbag
 import os
+
 path = '/data/ai02/didi/'
 
 files = os.listdir(path)

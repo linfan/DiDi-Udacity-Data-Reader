@@ -55,6 +55,19 @@ Udacity使用了新方法采集数据，以便加速数据处理和释放的周�
 
 Dataset Information:
 
+             approach_1.bag        靠近障碍物1
+             approach_2.bag        靠近障碍物2
+             approach_3.bag        靠近障碍物3
+             corner_pass.bag       穿过街角
+             sitting.bag           静止不动？
+             spin_shoreline.bag    海岸线疾驰
+             intersection_1.bag    十字路口
+             spin.bag              疾驰
+             NOISY_spin_2.bag      疾驰2
+             spin_3.bag            疾驰3
+             overtake.bag          超车
+             5mph.bag              5每小时英里
+
 types:       bond/Status                            [eacc84bf5d65b6777d4c50f463dfb9c8]
              diagnostic_msgs/DiagnosticArray        [60810da900de1dd6ddd437c3503511da]
              diagnostic_msgs/DiagnosticStatus       [d0ce08bc6e5ba34c7754f563a9cabaf1]
