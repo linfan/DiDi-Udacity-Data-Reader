@@ -2,7 +2,6 @@
 
 import rosbag
 import os
-import numpy as np
 from PIL import Image
 
 rbag = rosbag.Bag('/data/ai02/didi/approach_1.bag')
