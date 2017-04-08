@@ -1,3 +1,26 @@
+[ approach_1.bag ]
+  /cloud_nodelet/parameter_descriptions => 1
+  /cloud_nodelet/parameter_updates => 1
+  /diagnostics => 77
+  /diagnostics_agg => 23
+  /diagnostics_toplevel_state => 23
+  /gps/fix => 86
+  /gps/rtkfix => 112
+  /gps/time => 106
+  /image_raw => 333
+  /obs1/gps/fix => 11
+  /obs1/gps/rtkfix => 111
+  /obs1/gps/time => 85
+  /radar/points => 222
+  /radar/range => 222
+  /radar/tracks => 222
+  /rosout => 15
+  /tf => 1100
+  /velodyne_nodelet_manager/bond => 44
+  /velodyne_packets => 111
+  /velodyne_points => 110
+Total: 3015
+
 [ approach_2.bag ]
   /cloud_nodelet/parameter_descriptions => 1
   /cloud_nodelet/parameter_updates => 1
@@ -228,29 +251,6 @@ Total: 34525
   /velodyne_points => 368
 Total: 9906
 
-[ approach_1.bag ]
-  /cloud_nodelet/parameter_descriptions => 1
-  /cloud_nodelet/parameter_updates => 1
-  /diagnostics => 77
-  /diagnostics_agg => 23
-  /diagnostics_toplevel_state => 23
-  /gps/fix => 86
-  /gps/rtkfix => 112
-  /gps/time => 106
-  /image_raw => 333
-  /obs1/gps/fix => 11
-  /obs1/gps/rtkfix => 111
-  /obs1/gps/time => 85
-  /radar/points => 222
-  /radar/range => 222
-  /radar/tracks => 222
-  /rosout => 15
-  /tf => 1100
-  /velodyne_nodelet_manager/bond => 44
-  /velodyne_packets => 111
-  /velodyne_points => 110
-Total: 3015
-
 [ 5mph.bag ]
   /cloud_nodelet/parameter_descriptions => 1
   /cloud_nodelet/parameter_updates => 1
@@ -273,4 +273,3 @@ Total: 3015
   /velodyne_packets => 1640
   /velodyne_points => 1640
 Total: 44396
-
