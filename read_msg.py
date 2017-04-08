@@ -5,7 +5,7 @@ import rosbag
 numbers = 32   # 32 topics each frame
 rbag = rosbag.Bag('/data/ai02/didi/approach_1.bag')
 
-for topic, msg, t in rbag.read_messages():
+for topic, msg, _ in rbag.read_messages():
     if numbers < 1:
         break
     numbers -= 1

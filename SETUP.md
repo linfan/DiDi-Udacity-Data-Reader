@@ -17,7 +17,7 @@
 >> For Python 2 Only
 
 ```
-# apt install -y ros-kinetic-ros-base
+# apt install -y ros-kinetic-ros-base ros-kinetic-cv-bridge
 # rosdep init
 # rosdep update
 # echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
