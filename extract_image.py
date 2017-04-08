@@ -14,14 +14,14 @@ if not os.path.exists(out_dir):
 i = 0
 for topic, msg, time in rbag.read_messages():
     if topic == '/image_raw':
-        byte = [elem.encode("hex") for elem in msg.data]
-        raw_data = [int(n, 16) for n in byte]
-        reshape_raw_data = np.reshape(raw_data, (512, 1400)).astype('uint8')
-        im = Image.fromarray(reshape_raw_data)  # monochromatic image
+        byte = [elem.encode("hex") for elem in msg.data]  # string to byte array
+        raw_data = [int(n, 16) for n in byte]      # byte array to int array
+        reshape_raw_data = np.reshape(raw_data, (512, 1400)).astype('uint8')  # reshape to 2-dim array
+        im = Image.fromarray(reshape_raw_data)     # monochromatic image
         im_rgb = Image.merge('RGB', (im, im, im))  # color image
-        im_rgb.save('%s/%s.png' % (out_dir, i))
+        im_rgb.save('%s/%s.png' % (out_dir, i))    # save image
         i += 1
         print('Extracted %s images' % i)
-        if i > 20:
+        if i >= 20:
             break
 rbag.close()
