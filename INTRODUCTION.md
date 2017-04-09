@@ -55,20 +55,23 @@ Udacity使用了新方法采集数据，以便加速数据处理和释放的周�
 
 Dataset Information:
 
-             approach_1.bag        靠近障碍物1
-             approach_2.bag        靠近障碍物2
-             approach_3.bag        靠近障碍物3
-             corner_pass.bag       穿过街角
-             sitting.bag           静止不动？
-             spin_shoreline.bag    海岸线疾驰
-             intersection_1.bag    十字路口
-             spin.bag              疾驰
-             NOISY_spin_2.bag      疾驰2
-             spin_3.bag            疾驰3
-             overtake.bag          超车
-             5mph.bag              5每小时英里
+             [ 数据集 ]            [ 场景 ]
+             approach_1.bag        直接驶向前方车辆
+             approach_2.bag        从前方车辆的侧面经过
+             approach_3.bag        快速掉头然后驶向前方车辆
+             corner_pass.bag       在路口观察左右经过的车辆
+             intersection_1.bag    车辆从前方很近的地方穿过
+             sitting.bag           前方车辆静止不动
+             spin_shoreline.bag    在空旷的地方疾驰
+             spin.bag              观察前方左右疾驰的车辆
+             NOISY_spin_2.bag      一边疯狂转向一边狂飙
+             spin_3.bag            一边不停转向一边疾驰
+             overtake.bag          对方车辆从后面超车
+             5mph.bag              前方车辆时近时远
 
-types:       bond/Status                            [eacc84bf5d65b6777d4c50f463dfb9c8]
+types:
+
+             bond/Status                            [eacc84bf5d65b6777d4c50f463dfb9c8]
              diagnostic_msgs/DiagnosticArray        [60810da900de1dd6ddd437c3503511da]
              diagnostic_msgs/DiagnosticStatus       [d0ce08bc6e5ba34c7754f563a9cabaf1]
              dynamic_reconfigure/Config             [958f16a05573709014982821e6822580]
@@ -84,7 +87,9 @@ types:       bond/Status                            [eacc84bf5d65b6777d4c50f463d
              tf2_msgs/TFMessage                     [94810edda583a504dfda3829e70d7eec]
              velodyne_msgs/VelodyneScan             [50804fc9533a0e579e6322c04ae70566]
 
-topics:      /cloud_nodelet/parameter_descriptions  : dynamic_reconfigure/ConfigDescription
+topics:
+
+             /cloud_nodelet/parameter_descriptions  : dynamic_reconfigure/ConfigDescription
              /cloud_nodelet/parameter_updates       : dynamic_reconfigure/Config
              /diagnostics                           : diagnostic_msgs/DiagnosticArray       (3 connections)
              /diagnostics_agg                       : diagnostic_msgs/DiagnosticArray       (2 connections)
