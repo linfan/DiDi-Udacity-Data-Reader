@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+# 后来发现在ROS数据里本来就包含图片宽度和高度，
+# 根本不需要用OpenCV来转换，这个脚本是没必要的
 
 import rosbag
 import os
