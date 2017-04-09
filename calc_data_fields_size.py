@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import rosbag
 
 rbag = rosbag.Bag('/data/ai02/didi/approach_1.bag')
