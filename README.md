@@ -13,5 +13,9 @@ DiDi-Udacity Self-Driving Car Challenge 2017 Raw Data Reader
 - `list_topics.out` 上一个脚本运行结果
 - `read_msg.py` 从ROS文件读取Topic数据的测试
 - `get_image_dimension.py` 检查图片维度和长宽的脚本
-- `extract_image.py` 从ROS文件中提取摄像头图片数据
+- `extract_image_to_file.py` 从ROS文件中提取摄像头图片数据
+- `extract_image_to_ndarray.py` 同上一个脚本，但把图片信息转成数组
 - `find_fields_with_data.py` 检查还有哪些Topic包含Data数据
+
+## TODO
+- 如何利用 Radar 和 LIDAR 的采样数据
