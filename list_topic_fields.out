@@ -1,0 +1,235 @@
+[ /rosout ]
+  DEBUG
+  ERROR
+  FATAL
+  INFO
+  WARN
+  deserialize
+  deserialize_numpy
+  file
+  function
+  header
+  level
+  line
+  msg
+  name
+  serialize
+  serialize_numpy
+  topics
+
+[ /cloud_nodelet/parameter_descriptions ]
+  deserialize
+  deserialize_numpy
+  dflt
+  groups
+  max
+  min
+  serialize
+  serialize_numpy
+
+[ /gps/rtkfix ]
+  child_frame_id
+  deserialize
+  deserialize_numpy
+  header
+  pose
+  serialize
+  serialize_numpy
+  twist
+
+[ /image_raw ]
+  data
+  deserialize
+  deserialize_numpy
+  encoding
+  header
+  height
+  is_bigendian
+  serialize
+  serialize_numpy
+  step
+  width
+
+[ /tf ]
+  deserialize
+  deserialize_numpy
+  serialize
+  serialize_numpy
+  transforms
+
+[ /cloud_nodelet/parameter_updates ]
+  bools
+  deserialize
+  deserialize_numpy
+  doubles
+  groups
+  ints
+  serialize
+  serialize_numpy
+  strs
+
+[ /radar/tracks ]
+  deserialize
+  deserialize_numpy
+  header
+  serialize
+  serialize_numpy
+  tracks
+
+[ /radar/points ]
+  data
+  deserialize
+  deserialize_numpy
+  fields
+  header
+  height
+  is_bigendian
+  is_dense
+  point_step
+  row_step
+  serialize
+  serialize_numpy
+  width
+
+[ /radar/range ]
+  INFRARED
+  ULTRASOUND
+  deserialize
+  deserialize_numpy
+  field_of_view
+  header
+  max_range
+  min_range
+  radiation_type
+  range
+  serialize
+  serialize_numpy
+
+[ /obs1/gps/time ]
+  deserialize
+  deserialize_numpy
+  header
+  serialize
+  serialize_numpy
+  source
+  time_ref
+
+[ /gps/time ]
+  deserialize
+  deserialize_numpy
+  header
+  serialize
+  serialize_numpy
+  source
+  time_ref
+
+[ /gps/fix ]
+  COVARIANCE_TYPE_APPROXIMATED
+  COVARIANCE_TYPE_DIAGONAL_KNOWN
+  COVARIANCE_TYPE_KNOWN
+  COVARIANCE_TYPE_UNKNOWN
+  altitude
+  deserialize
+  deserialize_numpy
+  header
+  latitude
+  longitude
+  position_covariance
+  position_covariance_type
+  serialize
+  serialize_numpy
+  status
+
+[ /diagnostics_toplevel_state ]
+  ERROR
+  OK
+  STALE
+  WARN
+  deserialize
+  deserialize_numpy
+  hardware_id
+  level
+  message
+  name
+  serialize
+  serialize_numpy
+  values
+
+[ /diagnostics_agg ]
+  deserialize
+  deserialize_numpy
+  header
+  serialize
+  serialize_numpy
+  status
+
+[ /velodyne_packets ]
+  deserialize
+  deserialize_numpy
+  header
+  packets
+  serialize
+  serialize_numpy
+
+[ /velodyne_points ]
+  data
+  deserialize
+  deserialize_numpy
+  fields
+  header
+  height
+  is_bigendian
+  is_dense
+  point_step
+  row_step
+  serialize
+  serialize_numpy
+  width
+
+[ /obs1/gps/rtkfix ]
+  child_frame_id
+  deserialize
+  deserialize_numpy
+  header
+  pose
+  serialize
+  serialize_numpy
+  twist
+
+[ /diagnostics ]
+  deserialize
+  deserialize_numpy
+  header
+  serialize
+  serialize_numpy
+  status
+
+[ /velodyne_nodelet_manager/bond ]
+  active
+  deserialize
+  deserialize_numpy
+  header
+  heartbeat_period
+  heartbeat_timeout
+  id
+  instance_id
+  serialize
+  serialize_numpy
+
+[ /obs1/gps/fix ]
+  COVARIANCE_TYPE_APPROXIMATED
+  COVARIANCE_TYPE_DIAGONAL_KNOWN
+  COVARIANCE_TYPE_KNOWN
+  COVARIANCE_TYPE_UNKNOWN
+  altitude
+  deserialize
+  deserialize_numpy
+  header
+  latitude
+  longitude
+  position_covariance
+  position_covariance_type
+  serialize
+  serialize_numpy
+  status
+
